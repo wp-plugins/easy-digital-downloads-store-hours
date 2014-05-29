@@ -1,0 +1,27 @@
+div.edd-hours .edd-hours-day, div.edd-hours .edd-hours-time {
+	text-align: center;
+}
+
+div.edd-hours .edd-hours-time {
+	border-bottom: 1px dotted;
+}
+
+div.edd-hours .edd-hours-time:last-child {
+	border-bottom: 0px;
+}
+
+ul.edd-hours .edd-hours-day {
+	float: left;
+	clear: both;
+}
+
+ul.edd-hours .edd-hours-time {
+	float: right;
+}
+
+#wpadminbar #wp-admin-bar-edd-store-hours-bar,
+#wpadminbar #wp-admin-bar-edd-store-hours-bar .ab-item:hover {
+	background-color: #f44;
+	background-image: -moz-linear-gradient(bottom, #d00, #f44);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#d00), to(#f44));
+}
