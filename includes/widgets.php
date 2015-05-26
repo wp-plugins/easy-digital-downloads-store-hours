@@ -17,8 +17,8 @@ if( !defined( 'ABSPATH' ) ) exit;
  * @since       1.0.0
  */
 class edd_store_hours_widget extends WP_Widget {
-	public function edd_store_hours_widget() {
-		parent::WP_Widget( false, __( 'Store Hours', 'edd-store-hours' ), array( 'description' => __( 'Display the hours your store is open', 'edd-store-hours' ) ) );
+    public function __construct() {
+		parent::__construct( 'edd_store_hours_widget', __( 'Store Hours', 'edd-store-hours' ), array( 'description' => __( 'Display the hours your store is open', 'edd-store-hours' ) ) );
 	}
 
 

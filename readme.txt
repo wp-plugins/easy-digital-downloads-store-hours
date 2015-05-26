@@ -6,7 +6,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: download, downloads, e-store, eshop, digital downloads, e-downloads, ecommerce, e commerce, e-commerce, selling, wp-ecommerce, wp ecommerce, edd, easy digital downloads, hours, schedule
 Requires at least: 3.7
 Tested up to: 3.9
-Stable Tag: 1.0.0
+Stable Tag: 1.0.1
 
 Easily handle store hours of operation on your Easy Digital Downloads-powered site
 
@@ -38,6 +38,10 @@ Planned features include:
 2. Go to Downloads > Settings > Store Hours and configure the options
 
 == Changelog ==
+
+= Version 1.0.1 (May 26, 2015) =
+
+* Replace PHP4 contructors
 
 = Version 1.0.0 (May 29, 2014) =
 

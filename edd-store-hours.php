@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Easy Digital Downloads - Store Hours
  * Description:     Easily handle store hours of operation on your Easy Digital Downloads-powered site
- * Version:         1.0.0
+ * Version:         1.0.1
  * Author:          Daniel J Griffiths
  * Author URI:      http://section214.com
  * Text Domain:     edd-store-hours
@@ -62,7 +62,7 @@ if( !class_exists( 'EDD_Store_Hours' ) ) {
          */
         private function setup_constants() {
             // Plugin version
-            define( 'EDD_STORE_HOURS_VER', '1.0.0' );
+            define( 'EDD_STORE_HOURS_VER', '1.0.1' );
 
             // Plugin path
             define( 'EDD_STORE_HOURS_DIR', plugin_dir_path( __FILE__ ) );
